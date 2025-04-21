@@ -14,7 +14,7 @@ st.subheader("This is a app designed to clean data and also visualize the inform
 
 st.write("First, we load the data.")
 
-data = pd.read_csv("C:\\Users\\Joel\\OneDrive\\Documents\\athlete_events.csv")
+data = pd.read_csv("https://raw.githubusercontent.com/Ogunberry99/csv-file/refs/heads/main/athlete_events.csv")
 
 st.write(data)
 
